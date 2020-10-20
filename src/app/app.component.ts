@@ -6,6 +6,33 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'pw';
+  includeLetters = false;
+  includeNumbers = false;
+  includeSymbols = false;
+  password = '';
+
+  // tslint:disable-next-line:typedef
+
+  onChangeUseLetters(){
+    this.includeLetters = !this.includeLetters;
+  }
+
+  onChangeUseNumbers(){
+    this.includeNumbers = !this.includeNumbers;
+  }
+
+  onChangeUseSymbols(){
+    this.includeSymbols = !this.includeSymbols;
+  }
+
+  onButtonClick(){
+    console.log(`About to generate password with the following:
+    Includes Letters : ${this.includeLetters}
+    Includes Numbers : ${this.includeNumbers}
+    Includes Symbols : ${this.includeSymbols}
+    `);
+    this.password = 'MyPassword';
+  }
+
 
 }
