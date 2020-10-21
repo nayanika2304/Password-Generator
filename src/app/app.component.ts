@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  length = 0
   includeLetters = false;
   includeNumbers = false;
   includeSymbols = false;
@@ -25,13 +26,35 @@ export class AppComponent {
     this.includeSymbols = !this.includeSymbols;
   }
 
+  onChangeLength(value: string){
+    const parsedValue = parseInt(value);
+    if(!isNaN(parsedValue)){
+      this.length = parsedValue;
+    }
+  }
+
   onButtonClick(){
-    console.log(`About to generate password with the following:
-    Includes Letters : ${this.includeLetters}
-    Includes Numbers : ${this.includeNumbers}
-    Includes Symbols : ${this.includeSymbols}
-    `);
-    this.password = 'MyPassword';
+    const numbers = '1234567890';
+    const letters = 'abcdefghijklmnopqrstuvwxyz';
+    const symbols = '!@#$%^&*()';
+    let validChars = '';
+    if (this.includeLetters){
+      validChars += letters;
+    }
+    if (this.includeNumbers){
+      validChars += numbers;
+    }
+    if (this.includeSymbols){
+      validChars += symbols;
+    }
+    let generatedPassword = '';
+
+    for (let i = 0; i < this.length ; i++){
+      const index = Math.floor(Math.random() * validChars.length);
+      generatedPassword += validChars[index];
+    }
+
+    this.password = generatedPassword;
   }
 
 

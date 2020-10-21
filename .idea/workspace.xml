@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="199e76e2-5686-4af3-a17f-3c6b3310aa07" name="Default Changelist" comment="" />
     <list default="true" id="199e76e2-5686-4af3-a17f-3c6b3310aa07" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +17,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,13 +48,15 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RunManager" selected="npm.Angular CLI Server">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -84,6 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603203061373</updated>
       <workItem from="1603203062507" duration="5748000" />
+      <workItem from="1603235578745" duration="6431000" />
     </task>
     <servers />
   </component>
@@ -92,16 +101,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="started with app" />
-    <option name="LAST_COMMIT_MESSAGE" value="started with app" />
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="532" y="101" width="912" height="903" key="CommitChangelistDialog2" timestamp="1603234451692">
+    <state x="532" y="101" width="912" height="903" key="CommitChangelistDialog2" timestamp="1603234874044">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="532" y="101" width="912" height="903" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1603234451692" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1603234464775">
+    <state x="532" y="101" width="912" height="903" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1603234874044" />
+    <state x="242" y="117" width="1482" height="872" key="MergeDialog" timestamp="1603234914139">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1603234464775" />
+    <state x="242" y="117" width="1482" height="872" key="MergeDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1603234914139" />
+    <state x="624" y="315" width="728" height="475" key="MultipleFileMergeDialog" timestamp="1603234914141">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="624" y="315" width="728" height="475" key="MultipleFileMergeDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1603234914141" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1603234941721">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1603234941721" />
   </component>
 </project>
